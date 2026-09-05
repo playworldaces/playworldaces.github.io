@@ -4,7 +4,7 @@ Fan-made reference for [World Aces](https://worldaces.site), built from static H
 
 ## Content policy
 
-Published game information comes only from cached official World Aces documentation. Internal analysis, automation, API details, tactical experiments, and inferred engine behavior are excluded.
+Published game information comes only from cached World Aces documentation.
 
 ## Local preview
 

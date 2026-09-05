@@ -2,7 +2,7 @@
 
 ## Content boundary
 
-- Publish game information only when it exists in the approved official documentation cache.
+- Publish game information only when it exists in the approved documentation cache.
 - Never publish internal tools, scripts, API details, private data, tactical experiments, model output, or inferred engine behavior.
 - Keep deployed output dependency-free: static HTML and CSS only.
 
