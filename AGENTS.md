@@ -15,3 +15,13 @@
 | Shared visual system and responsive layout | `site/assets/styles.css:1` |
 | GitHub Pages deployment | `.github/workflows/pages.yml:1` |
 | Content and preview policy | `README.md:1` |
+
+## Publishing
+
+| Fact | Value |
+| --- | --- |
+| Live URL | https://playworldaces.github.io/ |
+| Deployed directory | `site/` only, per `.github/workflows/pages.yml:29` |
+| Deploy trigger | push to `main`, or `workflow_dispatch` |
+| Pages build type | must stay `workflow`; the `legacy` type Jekyll-renders `README.md` at the root and the wiki never ships |
+| Article links | relative (`./articles/...`), so the site is base-path independent |
